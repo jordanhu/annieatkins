@@ -1,6 +1,7 @@
 body {
-	background:url("../images/victoriantextureedited.jpg");
-
+	background:url("../images/victoriantextureedited3.jpg");
+	margin:0;
+	cursor: url(images/mouseicon.png), auto;
 	 }
 
 h3 {
@@ -12,7 +13,7 @@ h3 {
 	color: white;
 	text-align: center;
 }
-
+   
  .telegramholder {
  	position:relative;
  	left:-64px;
@@ -21,8 +22,8 @@ h3 {
 
  .moneyholder {
  	position:absolute;
-	top: 1204px;
-	left: 125px;
+	top: 1026px;
+	left: 155px;
     display : block;
     width : 200px;
     height : 206px; 
@@ -31,24 +32,24 @@ h3 {
 
  .vintageholder {
  	position:absolute;
- 	top:955px;
- 	left:271px;
+ 	top:765px;
+ 	left:301px;
  }
 
 .original { 
    position:relative;
-   top: 0px;
-   left: -60px;
+   top: 55px;
+   left: -43px;
    display : block;
-   width : 700px;
+   width : 343px;
    z-index:500;
-   height : 406px; 
+   height : 290px; 
 }
 
 .pink { 
 	position:absolute;
-	top: 0px;
-	left: -60px;
+	top: 795px;
+	left: -80px;
     display : block;
     z-index:500;
     width : 700px;
@@ -104,14 +105,14 @@ left:-120px;
 
 .vintagecollection2 {
 position:absolute;
-top:3280px;
-left:100px;
+top:3180px;
+left:108px;
 }
 
 .vintagecollection3 {
 position:absolute;
-top:3295px;
-left:370px;
+top:3196px;
+left:373px;
 }
 
 .vintage1 {
@@ -127,7 +128,7 @@ left:370px;
 
 .vintage2 {
 	position: absolute;
-	top: -4px;
+	top: -5px;
 	left:-2px;
     display : block;
 }
@@ -153,13 +154,14 @@ left:370px;
 
 .vintage6 {
 	position:absolute;
-	top:4px;
+	top:3px;
 	left:4px;
     display : block;
 }
 
 .budapestbook {
 	position:relative;
+	width:50%;
 	top: 30px;
 	left: 0px; 
     z-index:500;
@@ -196,16 +198,28 @@ left:370px;
     left:270px;
 }
 
-#wrapper {
-	position:absolute;
-	top:1290px;left:410px;
-	width:42%; margin: 0 auto; text-align: left;	
+#all_content_wrapper {
+	position:relative;
+	top:-30px;
+	left:0;
+	width:100%;
+	margin: none; text-align: left;
+	padding-bottom: 50px;
+}
+
+.text_wrapper {
+	position:relative;
+	top:-30px;
+	left:50%;
+	width:620px;
+	margin: 0 0 0 -300px; text-align: left;
+	padding-bottom: 50px;
 }
 
 .example {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:2470px;left:290px;
+	top:2640px;left:290px;
 	width:250px;height:200px;
 	color:white;
 	letter-spacing: .7px;
@@ -216,7 +230,7 @@ left:370px;
 .example2 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:2637px;left:742px;
+	top:2800px;left:778px;
 	width:250px;height:50px;
 	color:white;
 	line-height: 22px;
@@ -227,7 +241,7 @@ left:370px;
 .example3 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:2295px;left:865px;
+	top:2465px;left:865px;
 	width:250px;height:200px;
 	color:white;
 	line-height: 22px;
@@ -238,7 +252,7 @@ left:370px;
 .example4 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:3722px;left:410px;
+	top:3882px;left:421px;
 	width:750px;height:200px;
 	color:white;
 	line-height: 22px;
@@ -249,8 +263,8 @@ left:370px;
 .example5 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:4659px;left:230px;
-	width:250px;height:200px;
+	top:4629px;left:670px;
+	width:300px;height:200px;
 	color:white;
 	line-height: 22px;
 	letter-spacing: .7px;
@@ -260,7 +274,7 @@ left:370px;
 .example6 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:4880px;left:620px;
+	top:5000px;left:386px;
 	width:290px;height:200px;
 	color:white;
 	line-height: 22px;
@@ -271,7 +285,7 @@ left:370px;
 .example7 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:4689px;left:990px;
+	top:5060px;left:996px;
 	width:250px;height:200px;
 	color:white;
 	line-height: 22px;
@@ -282,7 +296,7 @@ left:370px;
 .example8 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:6432px;left:750px;
+	top:6598px;left:750px;
 	width:250px;height:200px;
 	color:white;
 	line-height: 22px;
@@ -293,7 +307,7 @@ left:370px;
 .example9 {
 	font-family: 'PT Mono';
 	position:absolute;
-	top:7108px;left:410px;
+	top:7300px;left:420px;
 	width:250px;height:200px;
 	color:white;
 	line-height: 22px;
@@ -340,19 +354,10 @@ left:370px;
 	font-family: 'PT Mono';
 }
 
-.rectangle {
-	position:absolute;
-	top:1255px;
-	left:80px;
-	opacity:.4;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .fullbleedimage {
-	position: absolute;
+	position: relative;
 	top: 0px; left:0px;
+	width:100%;
 }
 
 .telegrambanknotes {
@@ -386,17 +391,18 @@ left:370px;
 }
 
 .annie {
-	display:block;
+	display: block;
 	left:50%;
-	top:100px;
+	top:-400px;
 	margin:0 auto;
 }
 
-.bottomimage {
+/*.bottomimage {
 	position:relative;
-	left:-415px;
-	bottom:-4px;
-}
+	width:100%;
+	left:0px;
+	top:0px;
+}*/
 
 .textcontainer {
 	margin:0 auto;
